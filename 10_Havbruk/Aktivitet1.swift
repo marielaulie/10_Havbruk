@@ -19,13 +19,16 @@ class Aktivitet1: UIViewController {
     
     var string = "heihei"
 
-    @IBAction func a(_ sender: Any) {
-        print("hei")
-        
+    @IBAction func dealtapped(_ sender: Any) {
+        print("deal tapped")
     }
-    @IBAction func b(_ sender: Any) {
+    
+    @IBAction func dealtapped2(_ sender: Any) {
+        print("deal tapped 2222")
     }
-    @IBAction func c(_ sender: Any) {
+    
+    @IBAction func dealtapped3(_ sender: Any) {
+        print("deal tapped 3333")
     }
     /*
     // MARK: - Navigation

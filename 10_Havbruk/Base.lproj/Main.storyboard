@@ -194,8 +194,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="g8j-Dg-a3C">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="g8j-Dg-a3C">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå skal dere regne på laks!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1m-F4-HZ7">
                                 <rect key="frame" x="259" y="82" width="563" height="60"/>
@@ -213,50 +214,40 @@ Nå må vi finne snittvekten på fiskene. Hvordan gjør vi det? </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulI-Og-6Dg">
-                                <rect key="frame" x="77" y="544" width="251" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="A"/>
-                                <connections>
-                                    <action selector="a:" destination="ZWN-u4-pX5" eventType="touchUpInside" id="WQO-7c-Hyw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6U-le-h0U">
-                                <rect key="frame" x="374" y="544" width="251" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="B"/>
-                                <connections>
-                                    <action selector="b:" destination="ZWN-u4-pX5" eventType="touchUpInside" id="g1J-Kd-VC8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFa-sX-sCz">
-                                <rect key="frame" x="668" y="544" width="251" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="C"/>
-                                <connections>
-                                    <action selector="c:" destination="ZWN-u4-pX5" eventType="touchUpInside" id="vMZ-fp-XlO"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-q5-b07">
+                                <rect key="frame" x="20" y="389" width="1040" height="100.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="350.5" placeholderIntrinsicHeight="100.5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urs-yp-bqs">
+                                        <rect key="frame" x="0.0" y="1" width="346.5" height="98"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Summerer vektene og deler på antall" backgroundImage="rectangle" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXw-uM-xZb">
+                                        <rect key="frame" x="346.5" y="1" width="347" height="98"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Velger vekten det er flest fisker av" backgroundImage="rectangle" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jw4-xu-yYI">
+                                        <rect key="frame" x="693.5" y="1" width="346.5" height="98"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Summer vektene til fiskene" backgroundImage="rectangle" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="g8j-Dg-a3C" secondAttribute="bottom" id="f7p-hj-Ftj"/>
-                            <constraint firstItem="g8j-Dg-a3C" firstAttribute="top" secondItem="1Sx-Ls-tp8" secondAttribute="top" id="fzL-Z9-NjB"/>
-                            <constraint firstAttribute="trailing" secondItem="g8j-Dg-a3C" secondAttribute="trailing" id="vXE-2o-Uor"/>
-                            <constraint firstItem="g8j-Dg-a3C" firstAttribute="leading" secondItem="1Sx-Ls-tp8" secondAttribute="leading" id="vwF-oi-ue6"/>
+                            <constraint firstItem="nWW-q5-b07" firstAttribute="leading" secondItem="1Sx-Ls-tp8" secondAttribute="leadingMargin" id="5VS-je-hsi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nWW-q5-b07" secondAttribute="trailing" id="oL6-o6-1na"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aed-J1-Ohi"/>
                     </view>
                     <navigationItem key="navigationItem" id="gQl-Oc-6NQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSj-pk-a4V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="ZWN-u4-pX5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="856.66666666666663" y="1538.5185185185185"/>
         </scene>
@@ -281,5 +272,6 @@ Nå må vi finne snittvekten på fiskene. Hvordan gjør vi det? </string>
     </scenes>
     <resources>
         <image name="hav.png" width="1080" height="810"/>
+        <image name="rectangle" catalog="system" width="128" height="93"/>
     </resources>
 </document>
