@@ -13,6 +13,9 @@
 		733E6D42267A113B00A9E3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733E6D40267A113B00A9E3E2 /* Main.storyboard */; };
 		733E6D44267A114400A9E3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733E6D43267A114400A9E3E2 /* Assets.xcassets */; };
 		733E6D47267A114400A9E3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733E6D45267A114400A9E3E2 /* LaunchScreen.storyboard */; };
+		734F2986267A1F4000F9072F /* Havbruk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F2985267A1F4000F9072F /* Havbruk.swift */; };
+		734F2988267B376C00F9072F /* Aktivitet1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F2987267B376C00F9072F /* Aktivitet1.swift */; };
+		734F298C267B5BF000F9072F /* hav.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F298B267B5BF000F9072F /* hav.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		733E6D43267A114400A9E3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		733E6D46267A114400A9E3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		733E6D48267A114400A9E3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734F2985267A1F4000F9072F /* Havbruk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Havbruk.swift; sourceTree = "<group>"; };
+		734F2987267B376C00F9072F /* Aktivitet1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet1.swift; sourceTree = "<group>"; };
+		734F298B267B5BF000F9072F /* hav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hav.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		733E6D2E267A113A00A9E3E2 = {
 			isa = PBXGroup;
 			children = (
+				734F298B267B5BF000F9072F /* hav.png */,
 				733E6D39267A113B00A9E3E2 /* 10_Havbruk */,
 				733E6D38267A113B00A9E3E2 /* Products */,
 			);
@@ -58,7 +65,9 @@
 			children = (
 				733E6D3A267A113B00A9E3E2 /* AppDelegate.swift */,
 				733E6D3C267A113B00A9E3E2 /* SceneDelegate.swift */,
+				734F2985267A1F4000F9072F /* Havbruk.swift */,
 				733E6D3E267A113B00A9E3E2 /* ViewController.swift */,
+				734F2987267B376C00F9072F /* Aktivitet1.swift */,
 				733E6D40267A113B00A9E3E2 /* Main.storyboard */,
 				733E6D43267A114400A9E3E2 /* Assets.xcassets */,
 				733E6D45267A114400A9E3E2 /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734F298C267B5BF000F9072F /* hav.png in Resources */,
 				733E6D47267A114400A9E3E2 /* LaunchScreen.storyboard in Resources */,
 				733E6D44267A114400A9E3E2 /* Assets.xcassets in Resources */,
 				733E6D42267A113B00A9E3E2 /* Main.storyboard in Resources */,
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734F2988267B376C00F9072F /* Aktivitet1.swift in Sources */,
 				733E6D3F267A113B00A9E3E2 /* ViewController.swift in Sources */,
 				733E6D3B267A113B00A9E3E2 /* AppDelegate.swift in Sources */,
 				733E6D3D267A113B00A9E3E2 /* SceneDelegate.swift in Sources */,
+				734F2986267A1F4000F9072F /* Havbruk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

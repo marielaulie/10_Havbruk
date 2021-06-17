@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVKit
 
 class ViewController: UIViewController {
 
@@ -16,5 +17,19 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func introvideo(_ sender: Any) {
+        if let path = Bundle.main.path(forResource: "Rett_Gopro_Forside_Ny", ofType: "mp4"){
+        let video = AVPlayer(url: URL(fileURLWithPath: path))
+        let videoPlayer = AVPlayerViewController()
+        videoPlayer.player = video
+                 
+        present(videoPlayer, animated: true, completion:
+            {
+                video.play()
+                
+        })
+             }
+        
+    }
 }
 
