@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7314775F267DBDEF00F3E079 /* riktig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314775C267DBDEF00F3E079 /* riktig.png */; };
+		73147760267DBDEF00F3E079 /* vanlig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314775D267DBDEF00F3E079 /* vanlig.png */; };
+		73147763267DBFFE00F3E079 /* feil.png in Resources */ = {isa = PBXBuildFile; fileRef = 73147762267DBFFE00F3E079 /* feil.png */; };
+		73147765267DD0E400F3E079 /* Aktivitet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73147764267DD0E300F3E079 /* Aktivitet2.swift */; };
+		732DFF0E26870F41007E7B56 /* hav-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 732DFF0D26870F41007E7B56 /* hav-2.png */; };
+		732DFF1026871122007E7B56 /* hav-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 732DFF0F26871122007E7B56 /* hav-3.png */; };
+		732DFF12268718FF007E7B56 /* Aktivitet4_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFF11268718FF007E7B56 /* Aktivitet4_2.swift */; };
+		732DFF1426871F01007E7B56 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFF1326871F01007E7B56 /* Test.swift */; };
+		7335D8252684B3A7007EDA1F /* Aktivitet3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7335D8242684B3A6007EDA1F /* Aktivitet3.swift */; };
+		7335D8272684EB88007EDA1F /* Aktivitet4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7335D8262684EB88007EDA1F /* Aktivitet4.swift */; };
 		733E6D3B267A113B00A9E3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E6D3A267A113B00A9E3E2 /* AppDelegate.swift */; };
 		733E6D3D267A113B00A9E3E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E6D3C267A113B00A9E3E2 /* SceneDelegate.swift */; };
 		733E6D3F267A113B00A9E3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E6D3E267A113B00A9E3E2 /* ViewController.swift */; };
@@ -19,6 +29,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7314775C267DBDEF00F3E079 /* riktig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riktig.png; sourceTree = "<group>"; };
+		7314775D267DBDEF00F3E079 /* vanlig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanlig.png; sourceTree = "<group>"; };
+		73147762267DBFFE00F3E079 /* feil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feil.png; sourceTree = "<group>"; };
+		73147764267DD0E300F3E079 /* Aktivitet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet2.swift; sourceTree = "<group>"; };
+		732DFF0D26870F41007E7B56 /* hav-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hav-2.png"; sourceTree = "<group>"; };
+		732DFF0F26871122007E7B56 /* hav-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hav-3.png"; sourceTree = "<group>"; };
+		732DFF11268718FF007E7B56 /* Aktivitet4_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet4_2.swift; sourceTree = "<group>"; };
+		732DFF1326871F01007E7B56 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		7335D8242684B3A6007EDA1F /* Aktivitet3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet3.swift; sourceTree = "<group>"; };
+		7335D8262684EB88007EDA1F /* Aktivitet4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet4.swift; sourceTree = "<group>"; };
 		733E6D37267A113B00A9E3E2 /* 10_Havbruk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_Havbruk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733E6D3A267A113B00A9E3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733E6D3C267A113B00A9E3E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +66,11 @@
 		733E6D2E267A113A00A9E3E2 = {
 			isa = PBXGroup;
 			children = (
+				732DFF0F26871122007E7B56 /* hav-3.png */,
+				732DFF0D26870F41007E7B56 /* hav-2.png */,
+				73147762267DBFFE00F3E079 /* feil.png */,
+				7314775C267DBDEF00F3E079 /* riktig.png */,
+				7314775D267DBDEF00F3E079 /* vanlig.png */,
 				734F298B267B5BF000F9072F /* hav.png */,
 				733E6D39267A113B00A9E3E2 /* 10_Havbruk */,
 				733E6D38267A113B00A9E3E2 /* Products */,
@@ -66,6 +91,11 @@
 				733E6D3A267A113B00A9E3E2 /* AppDelegate.swift */,
 				733E6D3C267A113B00A9E3E2 /* SceneDelegate.swift */,
 				734F2985267A1F4000F9072F /* Havbruk.swift */,
+				732DFF1326871F01007E7B56 /* Test.swift */,
+				732DFF11268718FF007E7B56 /* Aktivitet4_2.swift */,
+				7335D8242684B3A6007EDA1F /* Aktivitet3.swift */,
+				7335D8262684EB88007EDA1F /* Aktivitet4.swift */,
+				73147764267DD0E300F3E079 /* Aktivitet2.swift */,
 				733E6D3E267A113B00A9E3E2 /* ViewController.swift */,
 				734F2987267B376C00F9072F /* Aktivitet1.swift */,
 				733E6D40267A113B00A9E3E2 /* Main.storyboard */,
@@ -134,6 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732DFF1026871122007E7B56 /* hav-3.png in Resources */,
+				732DFF0E26870F41007E7B56 /* hav-2.png in Resources */,
+				73147763267DBFFE00F3E079 /* feil.png in Resources */,
+				7314775F267DBDEF00F3E079 /* riktig.png in Resources */,
+				73147760267DBDEF00F3E079 /* vanlig.png in Resources */,
 				734F298C267B5BF000F9072F /* hav.png in Resources */,
 				733E6D47267A114400A9E3E2 /* LaunchScreen.storyboard in Resources */,
 				733E6D44267A114400A9E3E2 /* Assets.xcassets in Resources */,
@@ -150,8 +185,13 @@
 			files = (
 				734F2988267B376C00F9072F /* Aktivitet1.swift in Sources */,
 				733E6D3F267A113B00A9E3E2 /* ViewController.swift in Sources */,
+				7335D8252684B3A7007EDA1F /* Aktivitet3.swift in Sources */,
 				733E6D3B267A113B00A9E3E2 /* AppDelegate.swift in Sources */,
+				732DFF12268718FF007E7B56 /* Aktivitet4_2.swift in Sources */,
+				7335D8272684EB88007EDA1F /* Aktivitet4.swift in Sources */,
 				733E6D3D267A113B00A9E3E2 /* SceneDelegate.swift in Sources */,
+				732DFF1426871F01007E7B56 /* Test.swift in Sources */,
+				73147765267DD0E400F3E079 /* Aktivitet2.swift in Sources */,
 				734F2986267A1F4000F9072F /* Havbruk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

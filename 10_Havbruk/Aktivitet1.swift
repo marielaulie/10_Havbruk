@@ -17,19 +17,35 @@ class Aktivitet1: UIViewController {
     }
     //Hva skjer her? kommentar
     
-    var string = "heihei"
+ var isActive:Bool = false
 
-    @IBAction func dealtapped(_ sender: Any) {
-        print("deal tapped")
+  
+    
+    @IBOutlet weak var changeImage: UIButton!
+    
+    @IBAction func buttonStart(_ sender: UIButton) {
+        changeImage.setBackgroundImage(UIImage(named: "feil"), for: .normal)
+        changeImage2.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+        changeImage3.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+        
     }
     
-    @IBAction func dealtapped2(_ sender: Any) {
-        print("deal tapped 2222")
+    @IBOutlet weak var changeImage2: UIButton!
+    
+    @IBAction func buttonStart2(_ sender: UIButton) {
+        changeImage2.setBackgroundImage(UIImage(named: "feil"), for: .normal)
+        changeImage.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+        changeImage3.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+    }
+    @IBOutlet weak var changeImage3: UIButton!
+    @IBAction func buttonStart3(_ sender: UIButton) {
+        changeImage3.setBackgroundImage(UIImage(named: "riktig"), for: .normal)
+        changeImage.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+        changeImage2.setBackgroundImage(UIImage(named: "vanlig"), for: .normal)
+        gåVidere.setTitleColor(.white, for: .normal)
     }
     
-    @IBAction func dealtapped3(_ sender: Any) {
-        print("deal tapped 3333")
-    }
+    @IBOutlet weak var gåVidere: UIButton!
     /*
     // MARK: - Navigation
 

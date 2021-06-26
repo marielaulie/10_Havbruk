@@ -40,7 +40,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Trykk her for å gå videre"/>
                                 <connections>
-                                    <segue destination="sPI-fe-Oh9" kind="show" id="Ztq-IP-Cn3"/>
+                                    <segue destination="sPI-fe-Oh9" kind="show" id="wWT-9g-3Pw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,75 +78,78 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Havbrukslinjen ved Strand VGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWb-e5-1x8">
-                                <rect key="frame" x="209" y="84" width="662" height="60"/>
+                                <rect key="frame" x="209" y="129" width="662" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQx-QN-ez4">
-                                <rect key="frame" x="439.5" y="225" width="201" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Arbeid Havbruk">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQx-QN-ez4">
+                                <rect key="frame" x="444" y="270" width="192" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Arbeid Havbruk" image="play.rectangle" catalog="system">
+                                    <color key="titleColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="arbeidHavbruk:" destination="bP1-s6-U4j" eventType="touchUpInside" id="Yxc-8S-cB4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg0-53-WPH">
-                                <rect key="frame" x="445.5" y="303" width="189" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Arbeid Kristian">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg0-53-WPH">
+                                <rect key="frame" x="449" y="330" width="182" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Arbeid Kristian" image="play.rectangle" catalog="system">
+                                    <color key="titleColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="arbeidKristian:" destination="bP1-s6-U4j" eventType="touchUpInside" id="X7f-ZX-o2O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcR-Eu-V8z">
-                                <rect key="frame" x="453.5" y="381" width="173" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Ferdig Arbeid">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcR-Eu-V8z">
+                                <rect key="frame" x="455.5" y="390" width="169" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Ferdig Arbeid" image="play.rectangle" catalog="system">
+                                    <color key="titleColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ferdigArbeid:" destination="bP1-s6-U4j" eventType="touchUpInside" id="F2S-a4-gLO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-u1-lZN">
-                                <rect key="frame" x="436" y="459" width="208" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Ferdig Utdannet">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-u1-lZN">
+                                <rect key="frame" x="441" y="450" width="198" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Ferdig Utdannet" image="play.rectangle" catalog="system">
+                                    <color key="titleColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ferdigUtdannet:" destination="bP1-s6-U4j" eventType="touchUpInside" id="wBc-Y1-j1Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJF-8Z-JSG">
-                                <rect key="frame" x="427.5" y="537" width="225" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Ferdig Muligheter">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJF-8Z-JSG">
+                                <rect key="frame" x="433.5" y="510" width="213" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.36928790807723999" green="0.97907716035842896" blue="0.9876137375831604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Ferdig Muligheter" image="play.rectangle" catalog="system">
+                                    <color key="titleColor" red="0.37644845247268677" green="0.97381502389907837" blue="0.90460175275802612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="ferdigMuligheter:" destination="bP1-s6-U4j" eventType="touchUpInside" id="8Vn-9X-9Th"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Se videoene under" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENy-UI-w13">
-                                <rect key="frame" x="420" y="164" width="240" height="36"/>
+                                <rect key="frame" x="420" y="209" width="240" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHb-ze-qmq">
-                                <rect key="frame" x="387.5" y="655" width="305" height="48"/>
+                                <rect key="frame" x="387.5" y="610" width="305" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Trykk her for å gå videre">
-                                    <color key="titleColor" red="0.23118054866790771" green="0.74295419454574585" blue="0.99029415845870972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="iJx-iD-yRu" kind="show" id="y7L-KZ-LoL"/>
@@ -194,68 +197,667 @@
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="g8j-Dg-a3C">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="zSa-NM-ZKM">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå skal dere regne på laks!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1m-F4-HZ7">
-                                <rect key="frame" x="259" y="82" width="563" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zo0-xc-pKC">
-                                <rect key="frame" x="116" y="208" width="737" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X3-9P-e2T">
+                                <rect key="frame" x="731.5" y="342" width="297" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Summerer vektene og deler på antall" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonStart3:" destination="iJx-iD-yRu" eventType="touchUpInside" id="g4l-0R-A9I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-MC-n29">
+                                <rect key="frame" x="398.5" y="342" width="283" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Velger vekten det er flest fisker av" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonStart:" destination="iJx-iD-yRu" eventType="touchUpInside" id="5wq-GS-m80"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIE-AY-yG3">
+                                <rect key="frame" x="65.5" y="342" width="283" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Summer vektene til fiskene" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonStart2:" destination="iJx-iD-yRu" eventType="touchUpInside" id="Iu1-Qa-Vcb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2g-dV-c1u">
+                                <rect key="frame" x="171.5" y="240" width="737" height="72"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Vi har fanget mye fisk og plukker ut 10 tilfeldige fisker. 
 Nå må vi finne snittvekten på fiskene. Hvordan gjør vi det? </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nå skal dere regne på laks!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9m-XH-FJO">
+                                <rect key="frame" x="258.5" y="130" width="563" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-q5-b07">
-                                <rect key="frame" x="20" y="389" width="1040" height="100.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="350.5" placeholderIntrinsicHeight="100.5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urs-yp-bqs">
-                                        <rect key="frame" x="0.0" y="1" width="346.5" height="98"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Summerer vektene og deler på antall" backgroundImage="rectangle" catalog="system">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXw-uM-xZb">
-                                        <rect key="frame" x="346.5" y="1" width="347" height="98"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Velger vekten det er flest fisker av" backgroundImage="rectangle" catalog="system"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jw4-xu-yYI">
-                                        <rect key="frame" x="693.5" y="1" width="346.5" height="98"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Summer vektene til fiskene" backgroundImage="rectangle" catalog="system"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTH-55-qRV">
+                                <rect key="frame" x="344" y="662" width="392" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Riktig! Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ywi-SN-1Oz" kind="show" id="9Za-Aa-2vV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="nWW-q5-b07" firstAttribute="leading" secondItem="1Sx-Ls-tp8" secondAttribute="leadingMargin" id="5VS-je-hsi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="nWW-q5-b07" secondAttribute="trailing" id="oL6-o6-1na"/>
+                            <constraint firstItem="zSa-NM-ZKM" firstAttribute="leading" secondItem="1Sx-Ls-tp8" secondAttribute="leading" id="0OC-RL-HrB"/>
+                            <constraint firstItem="6dL-MC-n29" firstAttribute="centerX" secondItem="1Sx-Ls-tp8" secondAttribute="centerX" id="64i-Io-Ze5"/>
+                            <constraint firstItem="aed-J1-Ohi" firstAttribute="bottom" secondItem="nTH-55-qRV" secondAttribute="bottom" constant="100" id="9WE-Sy-Ld3"/>
+                            <constraint firstAttribute="bottom" secondItem="zSa-NM-ZKM" secondAttribute="bottom" id="DS6-Ob-HFn"/>
+                            <constraint firstItem="6X3-9P-e2T" firstAttribute="top" secondItem="Z2g-dV-c1u" secondAttribute="bottom" constant="30" id="IfO-nE-Ogm"/>
+                            <constraint firstItem="nTH-55-qRV" firstAttribute="centerX" secondItem="1Sx-Ls-tp8" secondAttribute="centerX" id="Poo-vd-WD7"/>
+                            <constraint firstAttribute="trailing" secondItem="zSa-NM-ZKM" secondAttribute="trailing" id="Pyl-ML-2k4"/>
+                            <constraint firstItem="S9m-XH-FJO" firstAttribute="centerX" secondItem="1Sx-Ls-tp8" secondAttribute="centerX" id="RAc-Py-eJf"/>
+                            <constraint firstItem="6dL-MC-n29" firstAttribute="centerY" secondItem="1Sx-Ls-tp8" secondAttribute="centerY" id="TIg-xs-t91"/>
+                            <constraint firstItem="Z2g-dV-c1u" firstAttribute="centerX" secondItem="1Sx-Ls-tp8" secondAttribute="centerX" id="ZXM-0C-NEJ"/>
+                            <constraint firstItem="Z2g-dV-c1u" firstAttribute="top" secondItem="S9m-XH-FJO" secondAttribute="bottom" constant="50" id="gN2-PH-Jc9"/>
+                            <constraint firstItem="zSa-NM-ZKM" firstAttribute="top" secondItem="1Sx-Ls-tp8" secondAttribute="top" id="hiP-Tb-E5b"/>
+                            <constraint firstItem="6X3-9P-e2T" firstAttribute="centerY" secondItem="1Sx-Ls-tp8" secondAttribute="centerY" id="qOv-j5-iId"/>
+                            <constraint firstItem="6dL-MC-n29" firstAttribute="leading" secondItem="oIE-AY-yG3" secondAttribute="trailing" constant="50" id="rIQ-w8-CNf"/>
+                            <constraint firstItem="6X3-9P-e2T" firstAttribute="leading" secondItem="6dL-MC-n29" secondAttribute="trailing" constant="50" id="xdy-wn-XJW"/>
+                            <constraint firstItem="oIE-AY-yG3" firstAttribute="centerY" secondItem="1Sx-Ls-tp8" secondAttribute="centerY" id="zd6-Cp-J8q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aed-J1-Ohi"/>
                     </view>
                     <navigationItem key="navigationItem" id="gQl-Oc-6NQ"/>
+                    <connections>
+                        <outlet property="changeImage" destination="6dL-MC-n29" id="hid-2W-UlA"/>
+                        <outlet property="changeImage2" destination="oIE-AY-yG3" id="YIQ-27-t2t"/>
+                        <outlet property="changeImage3" destination="6X3-9P-e2T" id="w6U-Y0-2YP"/>
+                        <outlet property="gåVidere" destination="nTH-55-qRV" id="Kz8-pU-ppV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSj-pk-a4V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="856.66666666666663" y="1538.5185185185185"/>
+        </scene>
+        <!--Aktivitet2-->
+        <scene sceneID="6om-on-EbZ">
+            <objects>
+                <viewController id="Ywi-SN-1Oz" customClass="Aktivitet2" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KDl-5h-uhv">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-QL-sHb">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-cF-zrB">
+                                <rect key="frame" x="65.5" y="342" width="283" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="28 000 g" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Knapp1:" destination="Ywi-SN-1Oz" eventType="touchUpInside" id="Oel-Cu-CcB"/>
+                                    <action selector="buttonStart:" destination="iJx-iD-yRu" eventType="touchUpInside" id="cni-FX-y9X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-Gc-Emc">
+                                <rect key="frame" x="398.5" y="342" width="283" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="280 000 kg" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonStart:" destination="iJx-iD-yRu" eventType="touchUpInside" id="sJ4-2X-xOH"/>
+                                    <action selector="knapp2:" destination="Ywi-SN-1Oz" eventType="touchUpInside" id="WBQ-R7-TQe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUj-DO-MRZ">
+                                <rect key="frame" x="43" y="93" width="965" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Gjennomsnittsvekten er 1600 g. Biomassen 
+er vekten til alle fiskene i en "merd". I vårt tilfelle 
+er det 175 000 fisker i en merd. Hva er biomassen? </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDt-ie-49n">
+                                <rect key="frame" x="731.5" y="342" width="283" height="126"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="280 kg" backgroundImage="vanlig.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonStart:" destination="iJx-iD-yRu" eventType="touchUpInside" id="aiE-qk-qgi"/>
+                                    <action selector="knapp3:" destination="Ywi-SN-1Oz" eventType="touchUpInside" id="jaN-6f-Kb4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAU-QN-Aig">
+                                <rect key="frame" x="344" y="662" width="392" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Riktig! Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yhh-tz-KuY" kind="show" id="k4W-D7-1Zg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PDt-ie-49n" firstAttribute="leading" secondItem="5eu-Gc-Emc" secondAttribute="trailing" constant="50" id="GPs-29-WEr"/>
+                            <constraint firstItem="vMG-cF-zrB" firstAttribute="centerY" secondItem="KDl-5h-uhv" secondAttribute="centerY" id="LzR-26-ghx"/>
+                            <constraint firstItem="wNC-QL-sHb" firstAttribute="top" secondItem="KDl-5h-uhv" secondAttribute="top" id="MZ3-1h-WHe"/>
+                            <constraint firstItem="5eu-Gc-Emc" firstAttribute="centerY" secondItem="KDl-5h-uhv" secondAttribute="centerY" id="ZLJ-rc-DNr"/>
+                            <constraint firstAttribute="trailing" secondItem="wNC-QL-sHb" secondAttribute="trailing" id="ZQM-es-1Bh"/>
+                            <constraint firstItem="jAU-QN-Aig" firstAttribute="centerX" secondItem="KDl-5h-uhv" secondAttribute="centerX" id="c6K-9A-Za9"/>
+                            <constraint firstItem="5eu-Gc-Emc" firstAttribute="centerX" secondItem="KDl-5h-uhv" secondAttribute="centerX" id="hGv-Ng-GkL"/>
+                            <constraint firstItem="5eu-Gc-Emc" firstAttribute="leading" secondItem="vMG-cF-zrB" secondAttribute="trailing" constant="50" id="iAx-Gk-HP7"/>
+                            <constraint firstItem="4SL-4k-4Sy" firstAttribute="bottom" secondItem="jAU-QN-Aig" secondAttribute="bottom" constant="100" id="ik2-l3-erc"/>
+                            <constraint firstItem="PDt-ie-49n" firstAttribute="centerY" secondItem="KDl-5h-uhv" secondAttribute="centerY" id="kWb-LL-TgW"/>
+                            <constraint firstAttribute="bottom" secondItem="wNC-QL-sHb" secondAttribute="bottom" id="qrE-kl-XP1"/>
+                            <constraint firstItem="wNC-QL-sHb" firstAttribute="leading" secondItem="KDl-5h-uhv" secondAttribute="leading" id="xNi-3x-IAM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4SL-4k-4Sy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gQ8-7G-9Hi"/>
+                    <connections>
+                        <outlet property="endreFarge1" destination="vMG-cF-zrB" id="ZXr-kU-60B"/>
+                        <outlet property="endreFarge2" destination="5eu-Gc-Emc" id="vNy-ks-797"/>
+                        <outlet property="endreFarge3" destination="PDt-ie-49n" id="pRq-A2-0tJ"/>
+                        <outlet property="gåVidere" destination="jAU-QN-Aig" id="KAo-G5-Nmp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ptg-Dh-gsg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="2281.4814814814813"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="suX-JG-KmL">
+            <objects>
+                <viewController id="nwl-h7-IGF" customClass="Test" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C6v-TD-ffd">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="4ej-gl-Tys">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="544" translatesAutoresizingMaskIntoConstraints="NO" id="Io6-pK-oXr">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="544"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Io6-pK-oXr" id="w8s-rj-qez">
+                                    <rect key="frame" x="0.0" y="0.0" width="1080" height="544"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="niN-dd-Yoe">
+                                            <rect key="frame" x="435" y="377" width="210" height="156"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StA-MO-Sgx">
+                                                    <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skriv inn svaret her:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8um-EF-aCu">
+                                                    <rect key="frame" x="0.0" y="50" width="210" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zy5-Iu-mVD">
+                                                    <rect key="frame" x="0.0" y="80" width="210" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUM-WM-Vp8">
+                                                    <rect key="frame" x="0.0" y="114" width="210" height="42"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="Sjekk svar">
+                                                        <color key="titleColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="sjekkSvar:" destination="R8Y-xn-qhj" eventType="touchUpInside" id="TKc-hr-SvM"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="niN-dd-Yoe" firstAttribute="bottom" secondItem="w8s-rj-qez" secondAttribute="bottomMargin" id="Pey-je-MPf"/>
+                                        <constraint firstItem="niN-dd-Yoe" firstAttribute="centerX" secondItem="w8s-rj-qez" secondAttribute="centerX" id="Q5K-9a-3ms"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4ej-gl-Tys" firstAttribute="leading" secondItem="C6v-TD-ffd" secondAttribute="leading" id="3Jz-6s-dtg"/>
+                            <constraint firstAttribute="bottom" secondItem="4ej-gl-Tys" secondAttribute="bottom" id="GrB-nQ-ev4"/>
+                            <constraint firstAttribute="trailing" secondItem="4ej-gl-Tys" secondAttribute="trailing" id="chD-PI-sNO"/>
+                            <constraint firstItem="4ej-gl-Tys" firstAttribute="top" secondItem="C6v-TD-ffd" secondAttribute="top" id="wlz-hg-zF8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pCQ-IC-AXD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hx0-bX-b8F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtr-pH-gO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="913"/>
+        </scene>
+        <!--Aktivitet3-->
+        <scene sceneID="j7J-ww-B7P">
+            <objects>
+                <viewController id="ZLf-IQ-8x0" customClass="Aktivitet3" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IrM-b0-HlD">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="SC5-dj-4AQ">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-2K-obb">
+                                <rect key="frame" x="432.5" y="337" width="215.5" height="136"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feil, prøv igjen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1K-hs-B6G">
+                                        <rect key="frame" x="0.0" y="0.0" width="215.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skriv inn svaret her: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHe-xv-U9X">
+                                        <rect key="frame" x="0.0" y="30" width="215.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o1y-0R-6u9">
+                                        <rect key="frame" x="0.0" y="60" width="215.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frm-2e-YaH">
+                                        <rect key="frame" x="0.0" y="94" width="215.5" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Send inn">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendInn:" destination="ZLf-IQ-8x0" eventType="touchUpInside" id="f3b-ti-YXm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rg-rL-OIy">
+                                <rect key="frame" x="42" y="93" width="996" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="L6E-YS-yKe"/>
+                                </constraints>
+                                <string key="text">Nå har vi kommet frem til gjennomsnittsvekt og biomasse. Fôrmengden som skal ut denne dagen er 2 % av biomassen. 
+Finn ut hvor mye det er. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKt-5R-kju">
+                                <rect key="frame" x="387.5" y="623" width="305" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biomasse: 280 000 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSO-oT-JsQ">
+                                <rect key="frame" x="842.5" y="58" width="217.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOa-OX-Ko5">
+                                <rect key="frame" x="902" y="339" width="47" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Hint?">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hint:" destination="ZLf-IQ-8x0" eventType="touchUpInside" id="Gzk-3T-HgL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qdV-2K-obb" firstAttribute="centerX" secondItem="IrM-b0-HlD" secondAttribute="centerX" id="0sj-R3-Ty8"/>
+                            <constraint firstItem="uOa-OX-Ko5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qdV-2K-obb" secondAttribute="trailing" constant="8" symbolic="YES" id="2LU-cP-3eH"/>
+                            <constraint firstItem="JKt-5R-kju" firstAttribute="centerX" secondItem="IrM-b0-HlD" secondAttribute="centerX" id="4L8-6h-dNZ"/>
+                            <constraint firstItem="6rg-rL-OIy" firstAttribute="centerX" secondItem="IrM-b0-HlD" secondAttribute="centerX" id="7UK-mI-Thd"/>
+                            <constraint firstItem="qdV-2K-obb" firstAttribute="centerY" secondItem="IrM-b0-HlD" secondAttribute="centerY" id="9UE-J1-tv9"/>
+                            <constraint firstItem="XyC-6L-hcT" firstAttribute="trailing" secondItem="uOa-OX-Ko5" secondAttribute="trailing" constant="131" id="GA2-Hx-cKz"/>
+                            <constraint firstItem="SC5-dj-4AQ" firstAttribute="leading" secondItem="IrM-b0-HlD" secondAttribute="leading" id="K5K-k3-iuy"/>
+                            <constraint firstItem="6rg-rL-OIy" firstAttribute="leading" secondItem="XyC-6L-hcT" secondAttribute="leading" constant="42" id="KN2-6A-X5k"/>
+                            <constraint firstItem="JKt-5R-kju" firstAttribute="top" secondItem="qdV-2K-obb" secondAttribute="bottom" constant="150" id="PUj-87-m9D"/>
+                            <constraint firstItem="QSO-oT-JsQ" firstAttribute="top" secondItem="XyC-6L-hcT" secondAttribute="top" constant="58" id="VbE-rE-dKd"/>
+                            <constraint firstItem="uOa-OX-Ko5" firstAttribute="top" secondItem="6rg-rL-OIy" secondAttribute="bottom" constant="117" id="Wiy-p8-zfH"/>
+                            <constraint firstItem="6rg-rL-OIy" firstAttribute="top" secondItem="XyC-6L-hcT" secondAttribute="top" constant="93" id="YIr-39-2gP"/>
+                            <constraint firstAttribute="bottom" secondItem="SC5-dj-4AQ" secondAttribute="bottom" id="cxi-yn-Sb9"/>
+                            <constraint firstItem="QSO-oT-JsQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XyC-6L-hcT" secondAttribute="leading" symbolic="YES" id="iJY-Qq-Vrr"/>
+                            <constraint firstItem="SC5-dj-4AQ" firstAttribute="top" secondItem="IrM-b0-HlD" secondAttribute="top" id="iq9-Xt-M8h"/>
+                            <constraint firstAttribute="trailing" secondItem="SC5-dj-4AQ" secondAttribute="trailing" id="mj8-ja-zEl"/>
+                            <constraint firstItem="XyC-6L-hcT" firstAttribute="trailing" secondItem="QSO-oT-JsQ" secondAttribute="trailing" constant="20" id="srg-YS-5OG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XyC-6L-hcT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Km-1D-wBN"/>
+                    <connections>
+                        <outlet property="gaaVidere" destination="JKt-5R-kju" id="pQl-Wm-BaZ"/>
+                        <outlet property="hintFarge" destination="uOa-OX-Ko5" id="SAd-mm-bxQ"/>
+                        <outlet property="svar" destination="b1K-hs-B6G" id="Lme-ez-54n"/>
+                        <outlet property="tekstFelt" destination="o1y-0R-6u9" id="sTE-Bc-F87"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KOh-9s-o4N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="2738"/>
+        </scene>
+        <!--Aktivitet42-->
+        <scene sceneID="W4b-xr-GPS">
+            <objects>
+                <viewController id="R8Y-xn-qhj" customClass="Aktivitet4_2" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="web-2h-oCq">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="BmN-GL-VDw">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tZm-NK-zf4">
+                                <rect key="frame" x="435" y="327" width="210" height="156"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGP-nh-wRv">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skriv inn svaret her:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBJ-Dt-rGl">
+                                        <rect key="frame" x="0.0" y="50" width="210" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LEe-2d-W6X">
+                                        <rect key="frame" x="0.0" y="80" width="210" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMG-ge-2iP">
+                                        <rect key="frame" x="0.0" y="114" width="210" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Sjekk svar">
+                                            <color key="titleColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sjekkSvar:" destination="R8Y-xn-qhj" eventType="touchUpInside" id="d9z-N7-XFW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siste spørsmål: Fiskefôret koster 15 kr/kg. Vi har  8 merder. Hva er fôrutgiftene for denne dagen?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZO-nR-IrC">
+                                <rect key="frame" x="231.5" y="155" width="617.5" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fôrmengde per merd per dag: 280 000 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wH-Yh-3Op">
+                                <rect key="frame" x="694" y="51" width="366" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nc-Uc-OQv">
+                                <rect key="frame" x="922" y="384" width="58" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Hint?">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hint:" destination="R8Y-xn-qhj" eventType="touchUpInside" id="PBJ-D5-78f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPs-ij-O9x">
+                                <rect key="frame" x="387.5" y="633" width="305" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tZm-NK-zf4" firstAttribute="centerX" secondItem="web-2h-oCq" secondAttribute="centerX" id="3h7-r1-2Ct"/>
+                            <constraint firstItem="pPs-ij-O9x" firstAttribute="centerX" secondItem="web-2h-oCq" secondAttribute="centerX" id="Egx-PG-Awu"/>
+                            <constraint firstAttribute="bottom" secondItem="BmN-GL-VDw" secondAttribute="bottom" id="OHq-6l-yBN"/>
+                            <constraint firstItem="BmN-GL-VDw" firstAttribute="leading" secondItem="web-2h-oCq" secondAttribute="leading" id="PDO-dk-Njv"/>
+                            <constraint firstAttribute="trailing" secondItem="BmN-GL-VDw" secondAttribute="trailing" id="QAD-b9-7D8"/>
+                            <constraint firstItem="Won-ek-YUu" firstAttribute="trailing" secondItem="1nc-Uc-OQv" secondAttribute="trailing" constant="100" id="QI6-xS-N3l"/>
+                            <constraint firstItem="tZm-NK-zf4" firstAttribute="top" secondItem="8ZO-nR-IrC" secondAttribute="bottom" constant="100" id="Qpc-42-rL3"/>
+                            <constraint firstItem="Won-ek-YUu" firstAttribute="trailing" secondItem="7wH-Yh-3Op" secondAttribute="trailing" constant="20" id="WEV-kU-Fav"/>
+                            <constraint firstItem="7wH-Yh-3Op" firstAttribute="top" secondItem="Won-ek-YUu" secondAttribute="top" constant="51" id="aHO-C6-glb"/>
+                            <constraint firstItem="BmN-GL-VDw" firstAttribute="top" secondItem="web-2h-oCq" secondAttribute="top" id="bpo-TK-5bx"/>
+                            <constraint firstItem="1nc-Uc-OQv" firstAttribute="centerY" secondItem="web-2h-oCq" secondAttribute="centerY" id="lw7-rp-FLI"/>
+                            <constraint firstItem="pPs-ij-O9x" firstAttribute="top" secondItem="tZm-NK-zf4" secondAttribute="bottom" constant="150" id="obh-rU-lGX"/>
+                            <constraint firstItem="8ZO-nR-IrC" firstAttribute="centerX" secondItem="web-2h-oCq" secondAttribute="centerX" id="vbQ-dQ-Uhh"/>
+                            <constraint firstItem="tZm-NK-zf4" firstAttribute="centerY" secondItem="web-2h-oCq" secondAttribute="centerY" id="w9Z-EK-W74"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Won-ek-YUu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2MD-mK-P7o"/>
+                    <connections>
+                        <outlet property="gaaVidere" destination="pPs-ij-O9x" id="ye1-kg-FoZ"/>
+                        <outlet property="hintFarge" destination="1nc-Uc-OQv" id="T1J-tU-afo"/>
+                        <outlet property="svar" destination="xGP-nh-wRv" id="15s-cE-7X1"/>
+                        <outlet property="tekstFelt" destination="LEe-2d-W6X" id="kXC-t9-BQl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D65-GX-pt1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="3470"/>
+        </scene>
+        <!--Aktivitet4-->
+        <scene sceneID="6cW-tC-U3k">
+            <objects>
+                <tableViewController id="kws-On-Dde" customClass="Aktivitet4" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tIz-aJ-emV">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="DID-Dc-0ek">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="542" id="HoC-31-fKd">
+                                        <rect key="frame" x="0.0" y="28" width="1080" height="542"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HoC-31-fKd" id="wXy-gy-vuO">
+                                            <rect key="frame" x="0.0" y="0.0" width="1080" height="542"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siste spørsmål: Fiskefôret koster 15 kr/kg. Vi har  8 merder. Hva er fôrutgiftene for denne dagen?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQY-1X-Mk7">
+                                                    <rect key="frame" x="221.5" y="192" width="637" height="74"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-CL-GCs">
+                                                    <rect key="frame" x="432.5" y="366" width="215.5" height="156"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifC-1j-rZ0">
+                                                            <rect key="frame" x="0.0" y="0.0" width="215.5" height="50"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skriv inn svaret her: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ji-jN-Zak">
+                                                            <rect key="frame" x="0.0" y="50" width="215.5" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hdr-gd-rcs">
+                                                            <rect key="frame" x="0.0" y="80" width="215.5" height="34"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oH-3l-Zdz">
+                                                            <rect key="frame" x="0.0" y="114" width="215.5" height="42"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <state key="normal" title="Sjekk svar">
+                                                                <color key="titleColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                            <connections>
+                                                                <action selector="sjekkSvar:" destination="kws-On-Dde" eventType="touchUpInside" id="w6f-Do-Koe"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fôrmengde per merd per dag: 280 000 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yew-zL-gTg">
+                                                    <rect key="frame" x="691" y="61" width="366" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyU-gn-muZ">
+                                                    <rect key="frame" x="845" y="407.5" width="58" height="42"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="Hint?">
+                                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="hint:" destination="kws-On-Dde" eventType="touchUpInside" id="IzS-2u-ire"/>
+                                                        <action selector="hint:" destination="R8Y-xn-qhj" eventType="touchUpInside" id="Sjl-dV-EPI"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mQY-1X-Mk7" firstAttribute="centerX" secondItem="wXy-gy-vuO" secondAttribute="centerX" id="3UC-pi-1LG"/>
+                                                <constraint firstItem="zyU-gn-muZ" firstAttribute="top" secondItem="mQY-1X-Mk7" secondAttribute="bottom" constant="141.5" id="Cdw-j1-Nov"/>
+                                                <constraint firstAttribute="bottom" secondItem="JW4-CL-GCs" secondAttribute="bottom" constant="20" id="Dl8-9f-ZPV"/>
+                                                <constraint firstItem="yew-zL-gTg" firstAttribute="top" secondItem="wXy-gy-vuO" secondAttribute="topMargin" constant="50" id="Ghv-Ci-8s4"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="yew-zL-gTg" secondAttribute="trailing" constant="3" id="HT7-DF-fNS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="zyU-gn-muZ" secondAttribute="trailing" constant="157" id="cTv-4Z-Hdq"/>
+                                                <constraint firstItem="JW4-CL-GCs" firstAttribute="centerX" secondItem="wXy-gy-vuO" secondAttribute="centerX" id="jb0-DS-o9V"/>
+                                                <constraint firstItem="JW4-CL-GCs" firstAttribute="top" secondItem="mQY-1X-Mk7" secondAttribute="bottom" constant="100" id="pCk-r0-GxK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1006380543" green="0.24459114670000001" blue="0.28304687140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="206" id="TGy-ex-2Mf">
+                                        <rect key="frame" x="0.0" y="570" width="1080" height="206"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TGy-ex-2Mf" id="kE0-Cm-42B">
+                                            <rect key="frame" x="0.0" y="0.0" width="1080" height="206"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHI-q5-jaZ">
+                                                    <rect key="frame" x="387.5" y="61" width="305" height="48"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <state key="normal" title="Trykk her for å gå videre">
+                                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="9q2-Hc-fOE" kind="show" id="WEl-te-Wva"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="GHI-q5-jaZ" firstAttribute="centerX" secondItem="kE0-Cm-42B" secondAttribute="centerX" id="FgT-6I-H9A"/>
+                                                <constraint firstItem="GHI-q5-jaZ" firstAttribute="top" secondItem="kE0-Cm-42B" secondAttribute="topMargin" constant="50" id="sgI-ri-Ici"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1006380543" green="0.24459114670000001" blue="0.28304687140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="kws-On-Dde" id="cfs-lb-6m6"/>
+                            <outlet property="delegate" destination="kws-On-Dde" id="jfC-db-6GU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="EeW-sY-uHS"/>
+                    <connections>
+                        <outlet property="gaaVidere" destination="GHI-q5-jaZ" id="Xpp-in-HRA"/>
+                        <outlet property="hintFarge" destination="zyU-gn-muZ" id="tfh-PO-xDi"/>
+                        <outlet property="svar" destination="ifC-1j-rZ0" id="uMQ-GL-Pzc"/>
+                        <outlet property="tekstFelt" destination="Hdr-gd-rcs" id="63e-wl-1Vu"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAE-IL-DVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="3715"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yu6-SY-jac">
+            <objects>
+                <viewController id="9q2-Hc-fOE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tkm-28-2wb">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hav.png" translatesAutoresizingMaskIntoConstraints="NO" id="wXh-16-c3z">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-RZ-5w0">
+                                <rect key="frame" x="55.5" y="363" width="969" height="84"/>
+                                <string key="text">Gratulerer! Nå er dere ferdig med Havbrukstasjonen. Håper  dere har fått litt mer innsikt i hvordan det er å jobbe med havbruk. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm7-R1-GS9">
+                                <rect key="frame" x="281.5" y="617" width="517" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Trykk her for å gjøre klar til neste gruppe.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wXh-16-c3z" firstAttribute="top" secondItem="Tkm-28-2wb" secondAttribute="top" id="7es-Pg-8ni"/>
+                            <constraint firstItem="cJf-RZ-5w0" firstAttribute="centerX" secondItem="Tkm-28-2wb" secondAttribute="centerX" id="PdX-sg-3D2"/>
+                            <constraint firstItem="Fm7-R1-GS9" firstAttribute="top" secondItem="cJf-RZ-5w0" secondAttribute="bottom" constant="170" id="TRX-Nf-hmR"/>
+                            <constraint firstItem="cJf-RZ-5w0" firstAttribute="centerY" secondItem="Tkm-28-2wb" secondAttribute="centerY" id="anZ-0S-JZ6"/>
+                            <constraint firstItem="Fm7-R1-GS9" firstAttribute="centerX" secondItem="Tkm-28-2wb" secondAttribute="centerX" id="bAX-ql-3tP"/>
+                            <constraint firstAttribute="bottom" secondItem="wXh-16-c3z" secondAttribute="bottom" id="bfT-UL-kIq"/>
+                            <constraint firstAttribute="trailing" secondItem="wXh-16-c3z" secondAttribute="trailing" id="kR0-cH-ZiQ"/>
+                            <constraint firstItem="wXh-16-c3z" firstAttribute="leading" secondItem="Tkm-28-2wb" secondAttribute="leading" id="skh-yj-OcR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EmP-30-3j7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wFy-YW-MrV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZyO-oL-Znu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="4418"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KGI-iH-wiu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Ro-63-6As" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="DkC-17-nDC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="euK-Jg-f3H">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -269,9 +871,147 @@ Nå må vi finne snittvekten på fiskene. Hvordan gjør vi det? </string>
             </objects>
             <point key="canvasLocation" x="138.88888888888889" y="92.592592592592581"/>
         </scene>
+        <!--Aktivitet42-->
+        <scene sceneID="1hu-T1-mNX">
+            <objects>
+                <tableViewController id="yhh-tz-KuY" customClass="Aktivitet4_2" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ROQ-Tl-yXE">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="tsR-Cl-P9c">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="542" id="dpm-v8-p2N">
+                                        <rect key="frame" x="0.0" y="28" width="1080" height="542"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dpm-v8-p2N" id="JW3-9b-qsn">
+                                            <rect key="frame" x="0.0" y="0.0" width="1080" height="542"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNZ-Bd-jLy">
+                                                    <rect key="frame" x="141.5" y="155" width="797.5" height="111"/>
+                                                    <string key="text">Nå har vi kommet frem til gjennomsnittsvekt og biomasse. 
+Fôrmengden som skal ut denne dagen er 2 % av biomassen. 
+Finn ut hvor mye det er. </string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4sK-hP-GAl">
+                                                    <rect key="frame" x="432.5" y="366" width="215.5" height="156"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVi-di-h3h">
+                                                            <rect key="frame" x="0.0" y="0.0" width="215.5" height="50"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skriv inn svaret her: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB7-SG-7mH">
+                                                            <rect key="frame" x="0.0" y="50" width="215.5" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zAZ-Gn-QK1">
+                                                            <rect key="frame" x="0.0" y="80" width="215.5" height="34"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amX-xs-bRp">
+                                                            <rect key="frame" x="0.0" y="114" width="215.5" height="42"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <state key="normal" title="Sjekk svar">
+                                                                <color key="titleColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                            <connections>
+                                                                <action selector="sjekkSvar:" destination="yhh-tz-KuY" eventType="touchUpInside" id="S1T-VL-8ya"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biomasse: 280 000 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smu-Iv-ZVa">
+                                                    <rect key="frame" x="858.5" y="61" width="198.5" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="0.95867764550000001" blue="0.96958150369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaL-8H-mJT">
+                                                    <rect key="frame" x="845" y="407.5" width="58" height="42"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="Hint?">
+                                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="hint:" destination="yhh-tz-KuY" eventType="touchUpInside" id="gt0-Sx-sfK"/>
+                                                        <action selector="hint:" destination="R8Y-xn-qhj" eventType="touchUpInside" id="kPK-aw-of5"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="smu-Iv-ZVa" secondAttribute="trailing" constant="3" id="45s-ra-ixW"/>
+                                                <constraint firstAttribute="bottom" secondItem="4sK-hP-GAl" secondAttribute="bottom" constant="20" id="bfr-8I-PxD"/>
+                                                <constraint firstItem="4sK-hP-GAl" firstAttribute="top" secondItem="cNZ-Bd-jLy" secondAttribute="bottom" constant="100" id="nLi-X8-RVP"/>
+                                                <constraint firstItem="smu-Iv-ZVa" firstAttribute="top" secondItem="JW3-9b-qsn" secondAttribute="topMargin" constant="50" id="oJs-dd-NDQ"/>
+                                                <constraint firstItem="4sK-hP-GAl" firstAttribute="centerX" secondItem="JW3-9b-qsn" secondAttribute="centerX" id="pb4-g0-eIM"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="BaL-8H-mJT" secondAttribute="trailing" constant="157" id="psS-GM-o7r"/>
+                                                <constraint firstItem="BaL-8H-mJT" firstAttribute="top" secondItem="cNZ-Bd-jLy" secondAttribute="bottom" constant="141.5" id="rpO-vu-pAw"/>
+                                                <constraint firstItem="cNZ-Bd-jLy" firstAttribute="centerX" secondItem="JW3-9b-qsn" secondAttribute="centerX" id="tCR-uu-8FT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1006380543" green="0.24459114670000001" blue="0.28304687140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="206" id="AlO-Xj-zrC">
+                                        <rect key="frame" x="0.0" y="570" width="1080" height="206"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AlO-Xj-zrC" id="eyU-bg-Rmy">
+                                            <rect key="frame" x="0.0" y="0.0" width="1080" height="206"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0b-VU-xYJ">
+                                                    <rect key="frame" x="387.5" y="61" width="305" height="48"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <state key="normal" title="Trykk her for å gå videre">
+                                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="kws-On-Dde" kind="show" id="yo9-Po-2qL"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="a0b-VU-xYJ" firstAttribute="centerX" secondItem="eyU-bg-Rmy" secondAttribute="centerX" id="UHV-ZZ-ixs"/>
+                                                <constraint firstItem="a0b-VU-xYJ" firstAttribute="top" secondItem="eyU-bg-Rmy" secondAttribute="topMargin" constant="50" id="UvZ-p8-wAw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1006380543" green="0.24459114670000001" blue="0.28304687140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="yhh-tz-KuY" id="7sv-bU-v33"/>
+                            <outlet property="delegate" destination="yhh-tz-KuY" id="xyg-jz-i18"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8Hr-Zr-25N"/>
+                    <connections>
+                        <outlet property="gaaVidere" destination="a0b-VU-xYJ" id="Ny7-Q6-3gk"/>
+                        <outlet property="hintFarge" destination="BaL-8H-mJT" id="wBD-CY-PSK"/>
+                        <outlet property="svar" destination="YVi-di-h3h" id="E9s-Jh-b0i"/>
+                        <outlet property="tekstFelt" destination="zAZ-Gn-QK1" id="0cJ-fT-kxd"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ix-ge-ZQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="3022"/>
+        </scene>
     </scenes>
     <resources>
         <image name="hav.png" width="1080" height="810"/>
-        <image name="rectangle" catalog="system" width="128" height="93"/>
+        <image name="play.rectangle" catalog="system" width="128" height="93"/>
+        <image name="vanlig.png" width="283" height="126"/>
     </resources>
 </document>
