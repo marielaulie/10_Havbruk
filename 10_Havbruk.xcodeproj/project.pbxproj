@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730D0CF4268DB3B900058225 /* Avslutning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D0CF3268DB3B900058225 /* Avslutning.swift */; };
 		7314775F267DBDEF00F3E079 /* riktig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314775C267DBDEF00F3E079 /* riktig.png */; };
 		73147760267DBDEF00F3E079 /* vanlig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314775D267DBDEF00F3E079 /* vanlig.png */; };
 		73147763267DBFFE00F3E079 /* feil.png in Resources */ = {isa = PBXBuildFile; fileRef = 73147762267DBFFE00F3E079 /* feil.png */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730D0CF3268DB3B900058225 /* Avslutning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avslutning.swift; sourceTree = "<group>"; };
 		7314775C267DBDEF00F3E079 /* riktig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riktig.png; sourceTree = "<group>"; };
 		7314775D267DBDEF00F3E079 /* vanlig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanlig.png; sourceTree = "<group>"; };
 		73147762267DBFFE00F3E079 /* feil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feil.png; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				733E6D3C267A113B00A9E3E2 /* SceneDelegate.swift */,
 				734F2985267A1F4000F9072F /* Havbruk.swift */,
 				732DFF1326871F01007E7B56 /* Test.swift */,
+				730D0CF3268DB3B900058225 /* Avslutning.swift */,
 				732DFF11268718FF007E7B56 /* Aktivitet4_2.swift */,
 				7335D8242684B3A6007EDA1F /* Aktivitet3.swift */,
 				7335D8262684EB88007EDA1F /* Aktivitet4.swift */,
@@ -186,6 +189,7 @@
 				734F2988267B376C00F9072F /* Aktivitet1.swift in Sources */,
 				733E6D3F267A113B00A9E3E2 /* ViewController.swift in Sources */,
 				7335D8252684B3A7007EDA1F /* Aktivitet3.swift in Sources */,
+				730D0CF4268DB3B900058225 /* Avslutning.swift in Sources */,
 				733E6D3B267A113B00A9E3E2 /* AppDelegate.swift in Sources */,
 				732DFF12268718FF007E7B56 /* Aktivitet4_2.swift in Sources */,
 				7335D8272684EB88007EDA1F /* Aktivitet4.swift in Sources */,

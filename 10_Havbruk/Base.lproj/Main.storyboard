@@ -807,10 +807,10 @@ Finn ut hvor mye det er. </string>
             </objects>
             <point key="canvasLocation" x="857" y="3715"/>
         </scene>
-        <!--View Controller-->
+        <!--Avslutning-->
         <scene sceneID="Yu6-SY-jac">
             <objects>
-                <viewController id="9q2-Hc-fOE" sceneMemberID="viewController">
+                <viewController id="9q2-Hc-fOE" customClass="Avslutning" customModule="_0_Havbruk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tkm-28-2wb">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -831,6 +831,9 @@ Finn ut hvor mye det er. </string>
                                 <state key="normal" title="Trykk her for å gjøre klar til neste gruppe.">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="backToStart:" destination="9q2-Hc-fOE" eventType="touchUpInside" id="DOh-c9-CZh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -847,10 +850,14 @@ Finn ut hvor mye det er. </string>
                         <viewLayoutGuide key="safeArea" id="EmP-30-3j7"/>
                     </view>
                     <navigationItem key="navigationItem" id="wFy-YW-MrV"/>
+                    <connections>
+                        <segue destination="qSG-hZ-jQQ" kind="unwind" identifier="undwindToA" unwindAction="unwind:" id="UxV-4q-BPG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZyO-oL-Znu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="qSG-hZ-jQQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="850" y="4418"/>
+            <point key="canvasLocation" x="860" y="4593"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KGI-iH-wiu">
@@ -864,7 +871,7 @@ Finn ut hvor mye det er. </string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eDI-wa-ty1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" destinationCreationSelector="backToNav:" id="eDI-wa-ty1"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqh-Jh-fO3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
